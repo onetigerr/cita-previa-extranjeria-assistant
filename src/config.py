@@ -62,3 +62,17 @@ NIE: str = get_env_var("NIE")
 
 # Full name
 FULL_NAME: str = get_env_var("FULL_NAME")
+
+# Country
+COUNTRY: str = get_env_var("COUNTRY", "")
+
+# --- Contact Information ---
+
+# Phone number
+PHONE_NUMBER: str = get_env_var("PHONE_NUMBER", "")
+
+# Email
+EMAIL: str = get_env_var("EMAIL", "")
+
+# Scraper Session ID
+SCRAPER_SESSION_ID: str = get_env_var("SCRAPER_SESSION_ID", "")
