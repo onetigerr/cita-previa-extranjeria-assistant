@@ -6,3 +6,7 @@ poetry.lock
 
 # Checked out termux-web-scraper repo
 termux-web-scraper/
+
+.env
+/venv/
+/tests/
